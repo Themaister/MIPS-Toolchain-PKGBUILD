@@ -1,12 +1,13 @@
 # Maintainer: Anatol Pomozov <anatol.pomozov@gmail.com>
 # Updated for MIPS64: Valentín Kivachuk <vk18496@gmail.com>
+# Adapt for MIPS: Hans-Kristian Arntzen <maister@archlinux.us>
 
 _target=mips-linux-gnu
 pkgname=$_target-gcc-stage1
 pkgver=8.2.0
 _islver=0.18
 pkgrel=1
-pkgdesc='The GNU Compiler Collection - cross compiler for MIPS64 target (Big Endian)'
+pkgdesc='The GNU Compiler Collection - cross compiler for MIPS target (Big Endian, stage1 bootstrap)'
 arch=(i686 x86_64)
 url='http://gcc.gnu.org/'
 license=(GPL LGPL FDL)

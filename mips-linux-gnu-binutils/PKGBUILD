@@ -1,13 +1,14 @@
 # $Id$
 # Creator Anatol Pomozov <anatol.pomozov@gmail.com>
 # Adapt for MIPS64: Valentín Kivachuk <vk18496@gmail.com>
+# Adapt for MIPS: Hans-Kristian Arntzen <maister@archlinux.us>
 
 _target=mips-linux-gnu
 pkgname=$_target-binutils
 pkgver=2.29
 pkgrel=1
 #_commit=2bd25930
-pkgdesc='A set of programs to assemble and manipulate binary and object files for the MIPS64 target (Big Endian)'
+pkgdesc='A set of programs to assemble and manipulate binary and object files for the MIPS target (Big Endian)'
 arch=(i686 x86_64)
 url='http://www.gnu.org/software/binutils/'
 license=(GPL)

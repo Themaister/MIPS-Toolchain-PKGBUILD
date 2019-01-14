@@ -1,5 +1,6 @@
 # Maintainer: Anatol Pomozov <anatol.pomozov@gmail.com>
 # Updated for MIPS64: Valentín Kivachuk <vk18496@gmail.com>
+# Adapt for MIPS: Hans-Kristian Arntzen <maister@archlinux.us>
 
 _target_arch=mips
 _target=mips-linux-gnu
