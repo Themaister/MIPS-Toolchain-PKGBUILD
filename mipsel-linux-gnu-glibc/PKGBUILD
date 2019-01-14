@@ -2,12 +2,12 @@
 # Updated for MIPS64: Valentín Kivachuk <vk18496@gmail.com>
 # Adapt for MIPS: Hans-Kristian Arntzen <maister@archlinux.us>
 
-_target=mips-linux-gnu
+_target=mipsel-linux-gnu
 pkgname=$_target-glibc
 pkgver=2.26
 pkgrel=1
 _commit=be176490b818b65b5162c332eb6b581690b16e5c
-pkgdesc="GNU C Library MIPS target (Big endian)"
+pkgdesc="GNU C Library MIPS target (Little endian)"
 arch=(any)
 url='http://www.gnu.org/software/libc/'
 license=('GPL' 'LGPL')

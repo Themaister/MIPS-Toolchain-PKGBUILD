@@ -1,0 +1,10 @@
+--- binutils-2.29-old/ld/emultempl/mipself.em	2019-01-13 11:53:01.546076702 +0100
++++ binutils-2.29/ld/emultempl/mipself.em	2019-01-13 11:56:22.665488389 +0100
+@@ -44,7 +44,6 @@
+      MIPS ABI requires a mapping between the GOT and the symbol table.  */
+   if (link_info.emit_gnu_hash)
+     {
+-      einfo ("%X%P: .gnu.hash is incompatible with the MIPS ABI\n");
+       link_info.emit_hash = TRUE;
+       link_info.emit_gnu_hash = FALSE;
+     }
